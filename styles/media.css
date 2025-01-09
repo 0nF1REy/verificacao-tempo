@@ -1,0 +1,136 @@
+@media (max-width: 768px) {
+    
+    .main-container {
+        width: 95%; 
+        height: auto; 
+        margin: 20px auto; 
+        padding: 15px; 
+    }
+    
+    .weather-info {
+        gap: 20px;
+    }
+
+    .location-date-container {
+        flex-direction: column;
+        text-align: center; 
+    }
+
+    .weather-summary-container {
+        flex-direction: column; 
+        text-align: center;
+        gap: 20px;
+    }
+
+    .weather-summary-img {
+        width: 100px; 
+        height: 100px;
+    }
+
+    .weather-summary-info{
+        text-align: center;
+    }
+    
+    .weather-conditions-container {
+        flex-direction: column; 
+        gap: 15px; 
+    }
+    
+    .condition-item {
+      
+      justify-content: center;
+    }
+    
+    .condition-item i {
+        font-size: 25px; 
+    }
+
+    .forecast-items-container {
+        padding-bottom: 8px;
+    }
+    
+    .forecast-item {
+        min-width: 60px;
+        padding: 8px;
+        gap: 4px;
+        
+    }
+    .forecast-item-img {
+      width: 30px;
+      height: 30px;
+    }
+
+    .section-message {
+        margin-top: 15%;
+        gap: 10px;
+    }
+
+    .section-message img {
+        height: 150px;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .main-container {
+        padding: 10px;
+    }
+
+    .input-container {
+        margin-bottom: 15px;
+    }
+
+    .city-input {
+        padding: 8px 12px; 
+        font-size: 14px; 
+        padding-right: 40px;
+    }
+
+     .search-btn {
+      right: 12px;
+     }
+    .search-btn span {
+      font-size: 18px;
+    }
+    .weather-summary-img {
+        width: 80px;
+        height: 80px;
+    }
+  
+    .condition-item i {
+        font-size: 20px;
+    }
+    .forecast-item {
+      min-width: 50px;
+      padding: 6px;
+    }
+
+    .section-message img {
+       height: 120px;
+    }
+
+    .section-message h1{
+        font-size: 1.3rem;
+    }
+
+    .section-message h4{
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .main-container{
+        padding: 8px;
+    }
+    .section-message {
+        margin-top: 10%;
+    }
+
+    .section-message h1{
+        font-size: 1.1rem;
+    }
+
+    .section-message h4{
+        font-size: 0.75rem;
+    }
+}

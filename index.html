@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- ===== TITLE and META ===== -->
+    <title>Verificação do Tempo</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,maximum-scale=0.9,user-scalable=0">
+    <meta name="keywords" content="Verificar o Tempo">
+    <meta name="Author" content="Alan Ryan da Silva Domingues">
+    <meta content='#333333' name='theme-color' />
+    <meta name="robots" content="index, follow">
+    <!-- ==== OPEN GRAPH and SECURITY ==== -->
+    <meta property="og:title" content="Verificação do Tempo">
+    <meta property="og:image" content="./assets/img/pagina-principal.png">
+    <meta property="og:type" content="website">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- ==== FAVICON and ICONS ==== -->
+    <link rel="shortcut icon" href="./assets/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="./assets/icons/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="./assets/icons/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="./assets/icons/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="./assets/icons/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="./assets/icons/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="./assets/icons/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="./assets/icons/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="./assets/icons/apple-touch-icon-152x152.png" />
+    <!-- ==== MICROSOFT TILE ==== -->
+    <meta name="application-name" content="Verificação do Tempo" />
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="./assets/icons/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="./assets/icons/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="./assets/icons/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="./assets/icons/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="./assets/icons/mstile-310x310.png" />
+    <!-- ===== CSS and SCRIPT ===== -->
+    <link rel="stylesheet" href="./styles/font.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/icon.css">
+    <link rel="stylesheet" href="./styles/media.css">
+    <link rel="stylesheet" href="./assets/icons/fontawesome/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="./assets/icons/fontawesome/css/brands.min.css" />
+    <link rel="stylesheet" href="./assets/icons/fontawesome/css/solid.min.css" />
+    <link rel="stylesheet" href="./styles/keyframe.css">
+    <script src="./scripts/script.js" defer></script>
+    <!-- =====  GOOGLE ICONS ===== -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search" />
+</head>
+
+<body>
+    <div id="loading">
+        <p id="header">
+            Verificação do Tempo
+        </p>
+        <span id="txt-loading">Carregando...</span>
+        <p id="footer">
+            ©2025 Alan Ryan
+        </p>
+    </div>
+    <main class="main-container">
+        <header class="input-container">
+            <input class="city-input" placeholder="Procurar cidade" type="text">
+            <button class="search-btn">
+                <span class="material-symbols-outlined">
+                    search
+                </span>
+            </button>
+        </header>
+        <section class="weather-info" style="display: none;">
+            <div class="location-date-container">
+                <div class="location">
+                    <i class="bi bi-geo-alt"></i>
+                    <h4 class="country-txt">Itapeva</h4>
+                </div>
+                <h5 class="current-date-txt regular-txt">Seg, 16 Dec</h5>
+            </div>
+            <div class="weather-summary-container">
+                <img src="./assets/svg/clouds.svg" class="weather-summary-img" />
+                <div class="weather-summary-info">
+                    <h1 class="temp-txt">32 °C</h1>
+                    <h3 class="condition-txt regular-txt">Clouds</h3>
+                </div>
+            </div>
+            <div class="weather-conditions-container">
+                <div class="condition-item">
+                    <i class="fa-solid fa-droplet"></i>
+                    <div class="condition-info">
+                        <h5 id="umidade-txt" class="regular-txt">Umidade</h5>
+                        <h5 class="humidity-value-txt">66%</h5>
+                    </div>
+                </div>
+
+                <div class="condition-item">
+                    <i class="bi bi-wind"></i>
+                    <div class="condition-info">
+                        <h5 id="vento-txt" class="regular-txt">Vento</h5>
+                        <h5 class="wind-value-txt">8 km/h</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="forecast-items-container">
+                <div class="forecast-item">
+                    <h5 class="forecast-item-date regular-txt">16 Dec</h5>
+                    <img src="./assets/svg/thunderstorm.svg" class="forecast-item-img">
+                    <h5 class="forecast-item-temp">32 °C</h5>
+                </div>
+                <div class="forecast-item">
+                    <h5 class="forecast-item-date regular-txt">16 Dec</h5>
+                    <img src="./assets/svg/thunderstorm.svg" class="forecast-item-img">
+                    <h5 class="forecast-item-temp">32 °C</h5>
+                </div>
+                <div class="forecast-item">
+                    <h5 class="forecast-item-date regular-txt">16 Dec</h5>
+                    <img src="./assets/svg/thunderstorm.svg" class="forecast-item-img">
+                    <h5 class="forecast-item-temp">32 °C</h5>
+                </div>
+                <div class="forecast-item">
+                    <h5 class="forecast-item-date regular-txt">16 Dec</h5>
+                    <img src="./assets/svg/thunderstorm.svg" alt="Tempestade" class="forecast-item-img">
+                    <h5 class="forecast-item-temp">32 °C</h5>
+                </div>
+            </div>
+        </section>
+        <section class="search-city section-message">
+            <img src="./assets/img/search-city.png" alt="search city" />
+            <div>
+                <h1>Procurar por cidades</h1>
+                <h4 class="regular-txt">
+                    Descubra as condições climáticas das cidades
+                </h4>
+            </div>
+        </section>
+        <section class="not-found section-message" style="display: none;">
+            <img class="message-img" src="./assets/img/not-found.png" alt="search city" />
+            <div id="cidade-invalida-mensagem">
+                <h1>Cidade <span>inválida</span></h1>
+                <h4 class="regular-txt">
+                    Por favor, forneça uma cidade existente.
+                </h4>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>

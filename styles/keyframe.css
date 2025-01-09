@@ -1,0 +1,40 @@
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes swing3D {
+    0% {
+        transform: translateY(0) rotateX(0deg) rotateY(0deg);
+        animation-timing-function: ease-out;
+    }
+
+    25% {
+        transform: translateY(-5px) rotateX(15deg) rotateY(-15deg);
+        animation-timing-function: ease-in-out;
+    }
+
+    50% {
+        transform: translateY(5px) rotateX(0deg) rotateY(15deg);
+        animation-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    }
+
+    75% {
+        transform: translateY(-5px) rotateX(15deg) rotateY(15deg);
+        animation-timing-function: ease-in-out;
+    }
+
+    100% {
+        transform: translateY(0) rotateX(0deg) rotateY(0deg);
+        animation-timing-function: ease-in;
+    }
+}

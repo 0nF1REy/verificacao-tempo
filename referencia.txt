@@ -1,0 +1,13 @@
+A criação desse projeto, desenvolvido por Alan Ryan da Silva Domingues
+teve como base os seguintes materiais de apoio,com o último acesso
+sendo registrado em 09 de janeiro de 2025.
+
+|Alan-------------------------20--------------------------------|
+|                                                               |  
+|   https://youtu.be/qxzqEuAOYZ4?si=wub2BsFr8szJL_GX            |
+|   ("DevClub | Programação")                                   |
+|---------------------------------------------------------------|                                                              
+|   https://youtu.be/krUdJ87uxXc?si=UtllPSQK1ufq9E9w            |
+|   ("CodeArry")                                                |
+|                                                               |
+|-----------------------------25----------------------------Ryan|   
